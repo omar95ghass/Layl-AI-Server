@@ -1,0 +1,6 @@
+services:
+  - name: layl-ai
+    type: web
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
